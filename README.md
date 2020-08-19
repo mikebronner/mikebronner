@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+I'm currently looking for employment as a Laravel Developer. While I am full-stack, I do prefer focussing on the backend.
+
+More to come soon...
+
 <!--
 **mikebronner/mikebronner** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

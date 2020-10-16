@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm currently looking for employment as a Laravel Developer. While I am full-stack, I do prefer focussing on the backend.
+While I am a full-stack developer, I do prefer focussing on the backend.
 
 More to come soon...
 

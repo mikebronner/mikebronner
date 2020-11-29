@@ -1,7 +1,5 @@
 ### Hi there 👋
 
-While I am a full-stack developer, I do prefer focussing on the backend.
-
 More to come soon...
 
 <!--

@@ -49,3 +49,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+### Certifications
+
+
+![th-3054293082](https://user-images.githubusercontent.com/1791050/208267034-c5006f82-ae89-41eb-9478-7106c5aba070.jpg)          ![image](https://user-images.githubusercontent.com/1791050/208267032-13c8c426-f627-448d-b23e-e3dd74b6712a.png)
+

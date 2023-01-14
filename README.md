@@ -1,13 +1,13 @@
 ## Hi there 👋
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-7%2C791%20hrs%2023%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-7%2C948%20hrs%206%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
-> 🏆 222 Contributions in the Year 2023
+> 🏆 235 Contributions in the Year 2023
  > 
 > 📦 21.8 kB Used in GitHub's Storage 
  > 
@@ -17,6 +17,45 @@
  > 
 > 🔑 5 Private Repositories  
  > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning    1109 commits   ██████████░░░░░░░░░░░░░░░   42.44% 
+🌆 Daytime    1205 commits   ███████████░░░░░░░░░░░░░░   46.12% 
+🌃 Evening    181 commits    █░░░░░░░░░░░░░░░░░░░░░░░░   6.93% 
+🌙 Night      118 commits    █░░░░░░░░░░░░░░░░░░░░░░░░   4.52%
+
+```
+📅 **I'm Most Productive on Wednesday** 
+
+```text
+Monday       356 commits    ███░░░░░░░░░░░░░░░░░░░░░░   13.62% 
+Tuesday      288 commits    ██░░░░░░░░░░░░░░░░░░░░░░░   11.02% 
+Wednesday    453 commits    ████░░░░░░░░░░░░░░░░░░░░░   17.34% 
+Thursday     397 commits    ███░░░░░░░░░░░░░░░░░░░░░░   15.19% 
+Friday       366 commits    ███░░░░░░░░░░░░░░░░░░░░░░   14.01% 
+Saturday     302 commits    ███░░░░░░░░░░░░░░░░░░░░░░   11.56% 
+Sunday       451 commits    ████░░░░░░░░░░░░░░░░░░░░░   17.26%
+
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+⌚︎ Time Zone: America/Phoenix
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+
+```
+
 **I Mostly Code in PHP** 
 
 ```text
@@ -34,7 +73,7 @@ CSS                      1 repo              ░░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/mikebronner/mikebronner/master/charts/bar_graph.png) 
 
 
- Last Updated on 13/01/2023 18:38:27 UTC
+ Last Updated on 14/01/2023 18:36:18 UTC
 <!--END_SECTION:waka-->
 
 <!--

@@ -1,13 +1,13 @@
 ## Hi there 👋
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-7%2C948%20hrs%206%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-7%2C949%20hrs%2024%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
 **🐱 My GitHub Data** 
 
-> 🏆 321 Contributions in the Year 2023
+> 🏆 324 Contributions in the Year 2023
  > 
 > 📦 21.8 kB Used in GitHub's Storage 
  > 
@@ -46,13 +46,17 @@ Sunday       451 commits    ████░░░░░░░░░░░░░�
 ⌚︎ Time Zone: America/Phoenix
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Markdown                 39 mins             ████████████░░░░░░░░░░░░░   50.19% 
+PHP                      20 mins             ██████░░░░░░░░░░░░░░░░░░░   25.69% 
+Blade Template           7 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   9.65% 
+Bash                     4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   5.7% 
+Other                    4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   5.5%
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  1 hr 18 mins        █████████████████████████   100.0%
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    1 hr 18 mins        █████████████████████████   100.0%
 
 ```
 
@@ -73,7 +77,7 @@ CSS                      1 repo              ░░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/mikebronner/mikebronner/master/charts/bar_graph.png) 
 
 
- Last Updated on 22/01/2023 18:37:59 UTC
+ Last Updated on 23/01/2023 18:38:52 UTC
 <!--END_SECTION:waka-->
 
 <!--

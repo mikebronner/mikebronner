@@ -1,13 +1,13 @@
 ## Hi there 👋
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-7%2C992%20hrs%204%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-7%2C993%20hrs%2045%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-9-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-8-blue)
 
 **🐱 My GitHub Data** 
 
-> 🏆 484 Contributions in the Year 2023
+> 🏆 489 Contributions in the Year 2023
  > 
 > 📦 21.8 kB Used in GitHub's Storage 
  > 
@@ -46,17 +46,17 @@ Sunday       443 commits    ████░░░░░░░░░░░░░�
 ⌚︎ Time Zone: America/Phoenix
 
 💬 Programming Languages: 
-PHP                      8 hrs 49 mins       ███████████░░░░░░░░░░░░░░   43.5% 
-Markdown                 3 hrs 55 mins       ████░░░░░░░░░░░░░░░░░░░░░   19.33% 
-Blade Template           3 hrs 31 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.34% 
-YAML                     1 hr 27 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   7.15% 
-JSON                     58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.77%
+PHP                      9 hrs 21 mins       ███████████░░░░░░░░░░░░░░   45.35% 
+Markdown                 3 hrs 49 mins       ████░░░░░░░░░░░░░░░░░░░░░   18.52% 
+Blade Template           3 hrs 31 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.05% 
+YAML                     1 hr 22 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   6.63% 
+JSON                     52 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.23%
 
 🔥 Editors: 
-VS Code                  20 hrs 17 mins      █████████████████████████   100.0%
+VS Code                  20 hrs 37 mins      █████████████████████████   100.0%
 
 💻 Operating System: 
-Linux                    20 hrs 17 mins      █████████████████████████   100.0%
+Linux                    20 hrs 37 mins      █████████████████████████   100.0%
 
 ```
 
@@ -77,7 +77,7 @@ CSS                      1 repo              ░░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/mikebronner/mikebronner/master/charts/bar_graph.png) 
 
 
- Last Updated on 05/02/2023 18:36:10 UTC
+ Last Updated on 06/02/2023 18:38:45 UTC
 <!--END_SECTION:waka-->
 
 <!--

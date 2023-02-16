@@ -1,13 +1,13 @@
 ## Hi there 👋
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-8%2C021%20hrs%2030%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-8%2C026%20hrs%2028%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
-> 🏆 570 Contributions in the Year 2023
+> 🏆 581 Contributions in the Year 2023
  > 
 > 📦 21.9 kB Used in GitHub's Storage 
  > 
@@ -46,17 +46,17 @@ Sunday         418 commits       ████░░░░░░░░░░░�
 ⌚︎ Time Zone: America/Phoenix
 
 💬 Programming Languages: 
-Blade Template           9 hrs 44 mins       ██████████░░░░░░░░░░░░░░░   40.71 % 
-PHP                      7 hrs 29 mins       ███████░░░░░░░░░░░░░░░░░░   31.34 % 
-Markdown                 3 hrs 25 mins       ███░░░░░░░░░░░░░░░░░░░░░░   14.32 % 
-JSON                     1 hr 3 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.40 % 
-JavaScript               34 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   02.40 % 
+Blade Template           12 hrs 9 mins       ███████████░░░░░░░░░░░░░░   44.31 % 
+PHP                      7 hrs 38 mins       ███████░░░░░░░░░░░░░░░░░░   27.85 % 
+Markdown                 3 hrs 36 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.15 % 
+JSON                     1 hr 44 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   06.32 % 
+JavaScript               37 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   02.31 % 
 
 🔥 Editors: 
-VS Code                  23 hrs 54 mins      █████████████████████████   100.00 % 
+VS Code                  27 hrs 27 mins      █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Linux                    23 hrs 54 mins      █████████████████████████   100.00 % 
+Linux                    27 hrs 27 mins      █████████████████████████   100.00 % 
 
 ```
 
@@ -77,7 +77,7 @@ CSS                      1 repo              ░░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/mikebronner/mikebronner/master/charts/bar_graph.png) 
 
 
- Last Updated on 15/02/2023 18:39:20 UTC
+ Last Updated on 16/02/2023 18:39:35 UTC
 <!--END_SECTION:waka-->
 
 <!--

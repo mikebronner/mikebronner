@@ -1,13 +1,15 @@
 ## Hi there 👋
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-10%2C417%20hrs%2025%20mins-blue)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
  > 
-> 🏆 2,638 Contributions in the Year 2024
+> 🏆 2,652 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -32,7 +34,7 @@ Python                   4 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/mikebronner/mikebronner/master/assets/bar_graph.png)
 
 
- Last Updated on 02/12/2024 20:02:21 UTC
+ Last Updated on 05/12/2024 19:56:08 UTC
 <!--END_SECTION:waka-->
 
 <!--

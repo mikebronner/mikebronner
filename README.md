@@ -1,28 +1,28 @@
 ## Hi there 👋
 
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-26-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
  > 
-> 🏆 233 Contributions in the Year 2025
+> 🏆 793 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
-> 📜 150 Public Repositories 
+> 📜 156 Public Repositories 
  > 
 > 🔑 0 Private Repositories 
  > 
 **I Mostly Code in PHP** 
 
 ```text
-PHP                      110 repos           ████████████████░░░░░░░░░   62.50 % 
-Shell                    8 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
-CSS                      6 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.41 % 
-HTML                     5 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.84 % 
-Python                   4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.27 % 
+PHP                      113 repos           ████████████████░░░░░░░░░   62.78 % 
+Shell                    9 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
+CSS                      6 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.33 % 
+HTML                     5 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.78 % 
+Python                   4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.22 % 
 ```
 
 
@@ -32,7 +32,7 @@ Python                   4 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/mikebronner/mikebronner/master/assets/bar_graph.png)
 
 
- Last Updated on 07/03/2025 01:51:34 UTC
+ Last Updated on 25/04/2025 01:46:30 UTC
 <!--END_SECTION:waka-->
 
 <!--

@@ -118,3 +118,5 @@ Here are some ideas to get you started:
 [![pspo-1](https://images.credly.com/size/100x100/images/591762c5-fae7-49c6-b326-e1756979928d/image.png)](https://www.credly.com/users/mike-bronner)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![pspbm](https://images.credly.com/size/100x100/images/55a21a78-59af-4294-810e-e4014e9ca1be/image.png)](https://www.credly.com/users/mike-bronner)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![pspbm](https://images.credly.com/size/100x100/images/7964c477-0edb-4b83-b836-f35f255685f3/blob)](https://www.credly.com/users/mike-bronner)

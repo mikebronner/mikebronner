@@ -1,15 +1,13 @@
 ## Hi there 👋
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-11%2C860%20hrs%2030%20mins-blue)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
  > 
-> 🏆 2,314 Contributions in the Year 2025
+> 🏆 2,318 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -17,45 +15,6 @@
  > 
 > 🔑 0 Private Repositories 
  > 
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                75579 commits       ███████████░░░░░░░░░░░░░░   45.41 % 
-🌆 Daytime                67030 commits       ██████████░░░░░░░░░░░░░░░   40.27 % 
-🌃 Evening                18379 commits       ███░░░░░░░░░░░░░░░░░░░░░░   11.04 % 
-🌙 Night                  5466 commits        █░░░░░░░░░░░░░░░░░░░░░░░░   03.28 % 
-```
-📅 **I'm Most Productive on Tuesday** 
-
-```text
-Monday                   26332 commits       ████░░░░░░░░░░░░░░░░░░░░░   15.82 % 
-Tuesday                  30189 commits       █████░░░░░░░░░░░░░░░░░░░░   18.14 % 
-Wednesday                26713 commits       ████░░░░░░░░░░░░░░░░░░░░░   16.05 % 
-Thursday                 28043 commits       ████░░░░░░░░░░░░░░░░░░░░░   16.85 % 
-Friday                   24187 commits       ████░░░░░░░░░░░░░░░░░░░░░   14.53 % 
-Saturday                 15995 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   09.61 % 
-Sunday                   14995 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   09.01 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: America/Phoenix
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-```
-
 **I Mostly Code in PHP** 
 
 ```text
@@ -73,7 +32,7 @@ Rust                     4 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/mikebronner/mikebronner/master/assets/bar_graph.png)
 
 
- Last Updated on 24/10/2025 07:05:58 UTC
+ Last Updated on 27/10/2025 19:07:08 UTC
 <!--END_SECTION:waka-->
 
 <!--

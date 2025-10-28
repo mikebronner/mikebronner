@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-11%2C860%20hrs%2030%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-11%2C870%20hrs%2027%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -44,16 +44,21 @@ Sunday                   14995 commits       ██░░░░░░░░░�
 🕑︎ Time Zone: America/Phoenix
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+PHP                      6 hrs 35 mins       ███████████████████░░░░░░   74.35 % 
+Blade Template           1 hr 27 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.48 % 
+JSON                     24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.59 % 
+shell script             8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.64 % 
+log                      6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.21 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+Zed                      8 hrs 52 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+decisioncloud            5 hrs 33 mins       ████████████████░░░░░░░░░   62.72 % 
+crossbible-laravel-vapor 3 hrs 18 mins       █████████░░░░░░░░░░░░░░░░   37.28 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Mac                      8 hrs 52 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in PHP** 
@@ -73,7 +78,7 @@ Rust                     4 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/mikebronner/mikebronner/master/assets/bar_graph.png)
 
 
- Last Updated on 28/10/2025 07:26:32 UTC
+ Last Updated on 28/10/2025 13:05:40 UTC
 <!--END_SECTION:waka-->
 
 <!--

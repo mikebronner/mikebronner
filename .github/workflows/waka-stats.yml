@@ -16,5 +16,5 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           DEBUG_LOGGING: True
-          MAX_CAP: 80
+          MAX_REPOS: "100"
           SHOW_COMMIT: False

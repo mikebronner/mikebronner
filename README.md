@@ -1,17 +1,17 @@
 ## Hi there 👋
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-12%2C742%20hrs%2043%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-12%2C746%20hrs%2012%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-772.12%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-792.22%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
 > 📦 1.2 MB Used in GitHub's Storage 
  > 
-> 🏆 3,205 Contributions in the Year 2026
+> 🏆 3,210 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -19,6 +19,54 @@
  > 
 > 🔑 39 Private Repositories 
  > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                141978 commits      █████████████░░░░░░░░░░░░   51.66 % 
+🌆 Daytime                103608 commits      █████████░░░░░░░░░░░░░░░░   37.70 % 
+🌃 Evening                17752 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   06.46 % 
+🌙 Night                  11479 commits       █░░░░░░░░░░░░░░░░░░░░░░░░   04.18 % 
+```
+📅 **I'm Most Productive on Tuesday** 
+
+```text
+Monday                   43661 commits       ████░░░░░░░░░░░░░░░░░░░░░   15.89 % 
+Tuesday                  54253 commits       █████░░░░░░░░░░░░░░░░░░░░   19.74 % 
+Wednesday                47060 commits       ████░░░░░░░░░░░░░░░░░░░░░   17.12 % 
+Thursday                 49450 commits       ████░░░░░░░░░░░░░░░░░░░░░   17.99 % 
+Friday                   41612 commits       ████░░░░░░░░░░░░░░░░░░░░░   15.14 % 
+Saturday                 23014 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   08.37 % 
+Sunday                   15767 commits       █░░░░░░░░░░░░░░░░░░░░░░░░   05.74 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: America/Phoenix
+
+💬 Programming Languages: 
+PHP                      27 hrs 51 mins      ███████████████████░░░░░░   75.83 % 
+Markdown                 2 hrs 35 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.06 % 
+Blade Template           1 hr 19 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.61 % 
+Other                    1 hr 1 min          █░░░░░░░░░░░░░░░░░░░░░░░░   02.78 % 
+Rust                     57 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.63 % 
+
+🔥 Editors: 
+Unknown Editor           22 hrs 36 mins      ███████████████░░░░░░░░░░   61.53 % 
+Zed                      14 hrs 8 mins       ██████████░░░░░░░░░░░░░░░   38.47 % 
+
+🐱‍💻 Projects: 
+decisioncloud            25 hrs 31 mins      █████████████████░░░░░░░░   69.49 % 
+tru-data                 4 hrs 33 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.40 % 
+zed-laravel              2 hrs 58 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.10 % 
+crossbible-laravel-vapor 1 hr 14 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.39 % 
+laravel-model-caching    52 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.36 % 
+
+💻 Operating System: 
+Mac                      36 hrs 44 mins      █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in PHP** 
 
 ```text
@@ -36,7 +84,7 @@ Swift                    2 repos             ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/mikebronner/mikebronner/master/assets/bar_graph.png)
 
 
- Last Updated on 12/05/2026 03:26:09 UTC
+ Last Updated on 13/05/2026 03:55:58 UTC
 <!--END_SECTION:waka-->
 
 <!--

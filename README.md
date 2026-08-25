@@ -4,6 +4,7 @@
 </picture>
 
 <br>
+<br>
 
 PHP since 1999. That is long enough to watch the same problems reappear under new names every few years: the frameworks change and the tooling changes, but the friction underneath stays roughly where it was. Most of the work below is aimed at that layer.
 
@@ -73,5 +74,6 @@ Each of them exists because a specific problem was worth solving once rather tha
 Shipping a package takes a weekend. Keeping one working across twelve years of framework churn is the part that actually costs something, and it is the only part that earns anyone's trust.
 
 <br>
+<br>
 
-<sub>[mikebronner.dev](https://mikebronner.dev) &nbsp;·&nbsp; [Stack Overflow](https://stackoverflow.com/users/2288123/mike-bronner) &nbsp;·&nbsp; mike.bronner@icloud.com</sub>
+<sub>[mikebronner.dev](https://mikebronner.dev) &nbsp;·&nbsp; mike.bronner@icloud.com</sub>

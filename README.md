@@ -7,15 +7,15 @@
 <br>
 
 I've been developing in PHP since 1999. During that time I have watched the same problems reappear:
-the frameworks change and the tooling changes, but the challenges develoeprs face stay roughly the
+the frameworks change and the tooling changes, but the challenges developers face stay roughly the
 same. I have always been interested in addressing those challenges, in order to allow development to
-be focussed on creating solutions without being distracted by tooling and process friction.
+be focused on creating solutions without being distracted by tooling and process friction.
 
 The best tools get the job done and get out of your way. Ideally they are invisible and you don't
 even realize they are there. It removes friction and then stops asking for attention, freeing up
-your mental bandwidth to focus about the things that matter.
+your mental bandwidth to focus on the things that matter.
 
-Over my entire carerr I have worked on tackling automated logging, CI/CD pipelines and automated
+Over my entire career I have worked on tackling automated logging, CI/CD pipelines and automated
 testing, automated linting, as well as IDE tooling.
 
 <br>
@@ -28,29 +28,28 @@ actually understand it. Naming, structure, and comment decisions are mostly deci
 mental debt, because every reader after the first pays that cost again from scratch.
 
 ### Opinions only matter once they become practices.
-The resulting [code standards](https://mikebronner.dev/clean-code) I developed over years are
-written as a progression: from a single thought on a line up through statements, concepts, methods, 
-classes, and domains, each level composed from the one below it. Initially these served as
-documentation for teams to read and implement in their code. The constant friction surfaced during
-review when not all standards were met because they were not clearly understood or simply honestly
-missed during development.
+The resulting code standards I developed over years are written as a progression: from a single
+thought on a line up through statements, concepts, methods, classes, and domains, each level
+composed from the one below it. Initially these served as documentation for teams to read and
+implement in their code. The constant friction surfaced during review when not all standards were
+met because they were not clearly understood or simply honestly missed during development.
 
 ### A standard nobody enforces is not a standard.
 If a rule depends on a person remembering it, it may hold for about a month. Plus it introduces
-frustration and possible resentment during reviews. Put it into
-[tooling and automating](https://mike-bronner/phpcs-rules) it is the next logical move in making it
-a low-friction standard that can be followed during development and review.
+frustration and possible resentment during reviews. Putting it into tooling and automating it is
+the next logical move in making it a low-friction standard that can be followed during development
+and review.
 
 ### Only implement those tools that work.
-Implementing tooling that only does have the job or fails half the time to produce correct results
-is worse than no tooling. It it is a constant source of frustration and prevents the developer from
-acomplishing their work. Initially only a subset of the code standards were able to be implemented
+Implementing tooling that only does half the job or fails half the time to produce correct results
+is worse than no tooling. It is a constant source of frustration and prevents the developer from
+accomplishing their work. Initially only a subset of the code standards were able to be implemented
 in linter rules, but now with AI it is so much easier to expand on them and implement the more
 complex ones as well. Now with nearly complete coverage we have a full linting suite backing up the
 code standards.
 
 ### Process is engineering, not ceremony.
-To make everything work seemlessly together, processes must be developed and implemented. And just
+To make everything work seamlessly together, processes must be developed and implemented. And just
 like with tools, processes can be automated so that the tedium gets out of the way, and the human
 interaction is supported by a process framework, like Scrum. Scrum gets out of the way as much as
 possible and is only prescriptive where not being so would be detrimental to performance. The result
@@ -70,7 +69,7 @@ onboarding new developers.
 
 Out of the box PHP Code Sniffer provides basic linters, but they don't address more advanced or
 custom code standards. Slevomat adds quite a few good linters, but still doesn't get everything
-exactly as team might want their standards. So I built my own custom linters on top of PHPCS and
+exactly as a team might want their standards. So I built my own custom linters on top of PHPCS and
 Slevomat as needed so that all code standards are represented by a linter, and even auto-fixable if
 possible.
 
@@ -112,10 +111,14 @@ agentic team.
 ## What ended up in projects
 
 I would like to express a huge thank you to everyone using any of my packages! They all started out
-of a personal need, and I dogfed them to develop their functionality in all my projects.
+of a personal need, and I dogfooded them to develop their functionality in all my projects.
 Open-sourcing them to the community is my way of helping developers everywhere and give back to the 
-community. This in turn led to feedback, bug reports, and feature request, starting a
+community. This in turn led to feedback, bug reports, and feature requests, starting a
 self-perpetuating cycle.
+
+<br>
+
+### Laravel packages
 
 | Package | The problem it solves |
 |---|---|
@@ -126,7 +129,28 @@ self-perpetuating cycle.
 | [**laravel-impersonator**](https://github.com/mikebronner/laravel-impersonator) | Support cannot reproduce what the customer is seeing, so the thread becomes a slow exchange of screenshots. |
 | [**laravel-changelog**](https://github.com/mikebronner/laravel-changelog) | Nobody can tell customers what changed without asking an engineer first. |
 
-[All twenty-two, with documentation](https://mikebronner.dev/packages), published continuously since 2014, at roughly 512,000 downloads a month.
+[All packages, with documentation](https://mikebronner.dev/packages), published continuously since 2014, at roughly 512,000 downloads a month.
+
+<br>
+
+### Zed editor extensions
+
+| Extension | The problem it solves |
+|---|---|
+| [**zed-laravel**](https://github.com/mike-bronner/zed-laravel) | Zed has no idea what a Blade component, route helper, or container binding is, so it cannot autocomplete or navigate any of them. |
+| [**zed-phpcs-lsp**](https://github.com/mike-bronner/zed-phpcs-lsp) | Coding standard violations only surface in CI, long after the moment they were cheap to fix. |
+| [**zed-phpmd-lsp**](https://github.com/mike-bronner/zed-phpmd-lsp) | Complexity and code-smell warnings live in a separate report nobody opens. |
+
+<br>
+
+### Linters
+
+| Project | The problem it solves |
+|---|---|
+| [**phpcs-rules**](https://github.com/mike-bronner/phpcs-rules) | Written code standards decay because nothing enforces them, and the ones a token-based sniff genuinely cannot verify get claimed anyway. |
+
+[The code standards these enforce](https://mikebronner.dev/clean-code), written as a progression
+from a single thought on a line up through statements, concepts, methods, classes, and domains.
 
 <br>
 

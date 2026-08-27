@@ -129,7 +129,7 @@ self-perpetuating cycle.
 | [**laravel-impersonator**](https://github.com/mikebronner/laravel-impersonator) | Support cannot reproduce what the customer is seeing, so the thread becomes a slow exchange of screenshots. |
 | [**laravel-changelog**](https://github.com/mikebronner/laravel-changelog) | Nobody can tell customers what changed without asking an engineer first. |
 
-[All packages, with documentation](https://mikebronner.dev/packages), published continuously since 2014, at roughly 512,000 downloads a month.
+[All packages, with documentation](https://mikebronner.dev/packages).
 
 <br>
 

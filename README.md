@@ -6,49 +6,116 @@
 <br>
 <br>
 
-PHP since 1999. That is long enough to watch the same problems reappear under new names every few years: the frameworks change and the tooling changes, but the friction underneath stays roughly where it was. Most of the work below is aimed at that layer.
+I've been developing in PHP since 1999. During that time I have watched the same problems reappear:
+the frameworks change and the tooling changes, but the challenges develoeprs face stay roughly the
+same. I have always been interested in addressing those challenges, in order to allow development to
+be focussed on creating solutions without being distracted by tooling and process friction.
 
-The best work in this line is invisible. It removes some friction and then stops asking for attention, which also makes it hard to point at, because when it works there is nothing left to look at.
+The best tools get the job done and get out of your way. Ideally they are invisible and you don't
+even realize they are there. It removes friction and then stops asking for attention, freeing up
+your mental bandwidth to focus about the things that matter.
 
-What that has produced so far is [Laravel packages](#what-ended-up-in-your-composerjson), linting standards, editor tooling, and the process around all three. Most of it began as something worth fixing permanently rather than working around.
+Over my entire carerr I have worked on tackling automated logging, CI/CD pipelines and automated
+testing, automated linting, as well as IDE tooling.
 
 <br>
 
 ## What I have come to learn
 
-**Mental debt is the real cost of code.** It is the mental effort required to read something and work out what it does. Naming, structure, and comment decisions are mostly decisions about reducing it, because every reader after the first pays that cost again from scratch.
+### Mental debt is the real cost of code.
+This is the mental effort required to read code and
+actually understand it. Naming, structure, and comment decisions are mostly decisions about reducing
+mental debt, because every reader after the first pays that cost again from scratch.
 
-**Opinions only matter once they become practices.** The clean code standards behind [phpcs-rules](https://github.com/mike-bronner/phpcs-rules) are written as a progression: from a single thought on a line up through statements, concepts, methods, classes, and domains, each level composed from the one below it. Most of the sniffs in the package exist to enforce one level or another of that progression, which is why it is a package rather than a style guide. <sub>[The standards in full](https://mikebronner.dev/clean-code)</sub>
+### Opinions only matter once they become practices.
+The resulting [code standards](https://mikebronner.dev/clean-code) I developed over years are
+written as a progression: from a single thought on a line up through statements, concepts, methods, 
+classes, and domains, each level composed from the one below it. Initially these served as
+documentation for teams to read and implement in their code. The constant friction surfaced during
+review when not all standards were met because they were not clearly understood or simply honestly
+missed during development.
 
-**A standard nobody enforces is not a standard.** If a rule depends on a person remembering it during review, it holds for about a month. Put it into tooling, or accept that what exists is a preference rather than a standard.
+### A standard nobody enforces is not a standard.
+If a rule depends on a person remembering it, it may hold for about a month. Plus it introduces
+frustration and possible resentment during reviews. Put it into
+[tooling and automating](https://mike-bronner/phpcs-rules) it is the next logical move in making it
+a low-friction standard that can be followed during development and review.
 
-**Be honest about what automation cannot check.** Tools that claim more certainty than they have get disabled, and once disabled they stay disabled. A smaller set of rules a team actually trusts is worth more than a larger set it has learned to ignore.
+### Only implement those tools that work.
+Implementing tooling that only does have the job or fails half the time to produce correct results
+is worse than no tooling. It it is a constant source of frustration and prevents the developer from
+acomplishing their work. Initially only a subset of the code standards were able to be implemented
+in linter rules, but now with AI it is so much easier to expand on them and implement the more
+complex ones as well. Now with nearly complete coverage we have a full linting suite backing up the
+code standards.
 
-**Build so the next person can extend without asking.** Architecture is judged by what it costs somebody else to add to it. If a contributor has to modify the core to add a feature, the design has failed regardless of how clean it looks from the inside.
-
-**Do not discard what you do not understand.** Code that survives every cleanup is usually load-bearing for reasons nobody wrote down. Replace it against a parity bar rather than rewriting it from the description, because the description is what somebody remembers rather than what the code does.
-
-**Process is engineering, not ceremony.** A practice adopted to solve an observed problem gets shaped by that problem. A practice adopted because it is standard gets performed.
+### Process is engineering, not ceremony.
+To make everything work seemlessly together, processes must be developed and implemented. And just
+like with tools, processes can be automated so that the tedium gets out of the way, and the human
+interaction is supported by a process framework, like Scrum. Scrum gets out of the way as much as
+possible and is only prescriptive where not being so would be detrimental to performance. The result
+of combining automated tooling and a process framework lets developers focus on what they do best,
+while providing a platform for teams to continuously deliver value.
 
 <br>
 
-## What I did about it
+## What I ended up doing
 
-**Tiered linting, because a tool that cries wolf gets muted.** A rule fires on something that is actually fine, the developer adds an ignore comment, then another, and eventually somebody disables the ruleset for the whole directory. So every rule in [phpcs-rules](https://github.com/mike-bronner/phpcs-rules) is tiered: either machine-enforceable, meaning a sniff can verify it from the token stream with confidence, or documented as review-enforced because static analysis genuinely cannot see what the rule is about. Ninety rules a team trusts beat a hundred and forty it has learned to ignore.
+### Automated and consistent feedback on code standards
+Implementing as much of your coding standards through automated linting in both the IDE (for 
+immediate feedback) and during CI (for review feedback as a safety net) removes several areas that
+otherwise can provide friction. More importantly, it provides value to the company by having code
+that is easier to maintain through minimized mental debt, and further creates clear expectations for
+onboarding new developers.
 
-**Editor tooling, because small daily costs are the expensive ones.** An editor that does not know your framework cannot help you with it, and every lost autocompletion costs a few seconds, which is small enough to stop noticing. The Laravel tooling did not exist for Zed yet, which was reason enough to build LSPs for [Laravel](https://github.com/mike-bronner/zed-laravel), [PHPCS](https://github.com/mike-bronner/zed-phpcs-lsp), and [PHPMD](https://github.com/mike-bronner/zed-phpmd-lsp). Worth being clear, since the repositories do not make it obvious: I do not write Rust. I directed and reviewed those implementations rather than typing them, which is a real skill but not the same one.
+Out of the box PHP Code Sniffer provides basic linters, but they don't address more advanced or
+custom code standards. Slevomat adds quite a few good linters, but still doesn't get everything
+exactly as team might want their standards. So I built my own custom linters on top of PHPCS and
+Slevomat as needed so that all code standards are represented by a linter, and even auto-fixable if
+possible.
 
-**Scrum, and then Scrum for agents.** Scrum arrived in 2021 on a team that had grown past the point where informal coordination worked and needed practices it could sustain without heroics. [Five certifications](https://www.credly.com/users/mike-bronner) have followed since, roughly one a year, most recently on product ownership and on using AI within it. What actually matters is which ceremonies change a decision: refinement that produces acceptance criteria specific enough to argue with, prioritization rather than picking, and a review that is allowed to say no.
+### Processes and procedures
+Working in a development team comes with difficulties that don't exist for when you are working by
+yourself. Employing a framework helps make the team be the best it can be by providing a commonly
+understood set of processes and procedures. The Agile Manifesto provides a comprehensive set of 
+common sense guidelines. One such framework built around these is Scrum. When implemented correctly,
+it can support the individual developer, improve the team, and increase value for the company.
 
-That transferred to working with AI more directly than expected. Give a capable model a vague task and it will produce something plausible, at length, quickly, and without a definition of done there is no way to say whether it succeeded. So the agents in [claude-workbench](https://github.com/mike-bronner/claude-workbench) run the same process a team would: work is refined before it starts, items are prioritized rather than picked, dependencies keep blocked work out of the queue, and a separate reviewer checks the result against the criteria it was given and can send it back. None of it is novel. It is Scrum, applied to workers that happen not to be people, and it works for the same reasons.
+I always felt that agile development was a better solution than the traditional
+waterfall-project-managed-never-is-what-the-client-wanted-when-finished projects, and when I finally 
+discovered Scrum started implementing it in the teams I was part of. I studied it, lived it, and
+obtained several certifications, starting with Scrum Master and Product Owner certification.
+
+### Optimized IDE tooling
+Having an IDE that supports you in your daily development wherever it can helps developers improve
+their effectiveness by removing tedium, frustration, and providing contextual awareness. Having a
+comprehensive language and framework integration is vital for providing insight into code, allowing
+the developer to make informed decisions as they are typing. Further, it helps remove tedium and
+frustration, resulting in a more enjoyable development experience overall.
+
+I developed several extensions for Zed (my currently preferred IDE) that I now use on a daily basis
+for development, which include Laravel, PHPCS, and PHPMD LSPs for tightly integrated linting,
+auto-completion, and code insight.
+
+### Agentic development
+The recent emergence of LLMs and agentic development is seen by many as something that will make
+developers obsolete, and by others as the silver bullet. I think the truth lies somewhere in the
+middle, in that AI is a tool that developers are best suited at to implement effectively. Each of
+the above is directly applicable to making agentic development successful.
+
+I implemented this in the form of Claude plugins, a dedicated Github app that also serves as MCP,
+all integrated into a Github project that allows me to easily manage all the work being done by my
+agentic team.
 
 <br>
 
-## What ended up in your composer.json
+## What ended up in projects
 
-First, thank you. There are around 17.9 million downloads across the twenty-two packages I maintain, and that number still surprises me every time I look at it. If something of mine is running in your application, I appreciate you trusting it with your production traffic, and I do not take that lightly.
-
-Each of them exists because a specific problem was worth solving once rather than in every project:
+I would like to express a huge thank you to everyone using any of my packages! They all started out
+of a personal need, and I dogfed them to develop their functionality in all my projects.
+Open-sourcing them to the community is my way of helping developers everywhere and give back to the 
+community. This in turn led to feedback, bug reports, and feature request, starting a
+self-perpetuating cycle.
 
 | Package | The problem it solves |
 |---|---|
@@ -63,17 +130,7 @@ Each of them exists because a specific problem was worth solving once rather tha
 
 <br>
 
-**If something is broken**, please open an issue on the relevant repository. It helps enormously if you can include your PHP and Laravel versions, the package version, and the smallest reproduction you can manage: more often than not, the reproduction turns out to be most of the fix. I read every issue that comes in. I cannot always fix things quickly, because I maintain these in my own time alongside a full-time job, but I would much rather know about a problem than have you quietly work around it.
-
-**If you are not certain whether it is a bug**, please ask anyway. A question that turns out to be a documentation gap is still useful to me, and it is almost always useful to the next person who has the same question.
-
-**If you would rather reach me directly**, mike.bronner@icloud.com works for anything that does not belong in a public tracker: security concerns, commercial questions, or simply telling me what you built. I answer my email.
-
-**One thing that trips people up:** several packages moved from the `genealabs/` namespace to `mike-bronner/`, and Packagist marks the originals as abandoned. Those originals point at their replacements, and the replacements are actively maintained. If you landed on an abandoned notice, follow the link rather than assuming the project died.
-
-Shipping a package takes a weekend. Keeping one working across twelve years of framework churn is the part that actually costs something, and it is the only part that earns anyone's trust.
-
-<br>
-<br>
-
-<sub>[mikebronner.dev](https://mikebronner.dev) &nbsp;·&nbsp; mike.bronner@icloud.com</sub>
+If you are experiencing issues with any of my projects, please do reach out by opening an issue or 
+emailing me directly for security issues. I fully appreciate any feedback, as it helps improve each 
+project, and I realize that many of the packages might be used in production environments, so
+addressing any bugs is vitally important to me.

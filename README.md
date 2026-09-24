@@ -116,6 +116,8 @@ Open-sourcing them to the community is my way of helping developers everywhere a
 community. This in turn led to feedback, bug reports, and feature requests, starting a
 self-perpetuating cycle.
 
+Twenty-four packages, published continuously since 2014, at roughly 535,000 downloads a month.
+
 <br>
 
 ### Laravel packages
@@ -147,7 +149,7 @@ self-perpetuating cycle.
 
 | Project | The problem it solves |
 |---|---|
-| [**phpcs-rules**](https://github.com/mike-bronner/phpcs-rules) | Written code standards decay because nothing enforces them, and the ones a token-based sniff genuinely cannot verify get claimed anyway. |
+| [**clean-code**](https://github.com/mike-bronner/clean-code) | Written code standards decay because nothing enforces them, and the ones a token-based sniff genuinely cannot verify get claimed anyway. |
 
 [The code standards these enforce](https://mikebronner.dev/clean-code), written as a progression
 from a single thought on a line up through statements, concepts, methods, classes, and domains.
